@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: groq-vision-api
+    env: python
+    region: oregon  # या मुंबई: asia-south1 (optional)
+    plan: free
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
