@@ -3,25 +3,5 @@ flask-cors
 requests
 python-dotenv
 gunicorn
-     ==> Deploying...
-     ==> No open ports detected, continuing to scan...
-     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
-==> Running ' app:app'
-bash: line 1: gunicorn: command not found
-     ==> Exited with status 127
-     ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
-==> Running 'gunicorn app:app'
-bash: line 1: gunicorn: command not found
-Need better ways to work with logs? Try theRender CLI, Render MCP Server, or set up a log stream integration 
-
-0 services selected:
-
-Move
-
-Generate Blueprint
-
-Resume
-
-Suspend
 
 
